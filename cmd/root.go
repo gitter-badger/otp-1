@@ -39,7 +39,8 @@ import (
 // var cfgFile string
 // arg variables
 var (
-	DEBUG bool
+	DEBUG   bool
+	VERSION string
 )
 
 // Global vars
