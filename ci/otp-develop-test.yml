@@ -1,0 +1,20 @@
+---
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: registry.mythic.tech:5000/golang
+    tag: latest
+
+inputs:
+  - name: otp-develop
+    path: gopath/src/github.com/mythic-tech/otp
+
+run:
+  path: ls
+  args: [-lah, gopath]
+
+# run:
+#   path: go
+#   args: [test,]
