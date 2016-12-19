@@ -1,0 +1,10 @@
+hash: 0bf8e88070e6438258b089ef054e535c667c8bc5b848cf6c9d2ebbefe0fcc589
+updated: 2016-12-16T00:02:06.19224997-07:00
+imports:
+- name: github.com/ogier/pflag
+  version: 32a05c62658bd1d7c7e75cbc8195de5d585fde0f
+- name: github.com/xeodou/go-sqlcipher
+  version: f2597f789472d16248af0544d1d8fedd7ea3ac86
+- name: golang.org/x/crypto
+  version: 01be46f62051d02cb6a36c9b47b37b24e5758c81
+testImports: []

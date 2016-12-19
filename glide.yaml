@@ -1,0 +1,6 @@
+package: github.com/adminfromhell/otp
+import:
+- package: github.com/ogier/pflag
+  version: ^0.0.1
+- package: github.com/xeodou/go-sqlcipher
+- package: golang.org/x/crypto
