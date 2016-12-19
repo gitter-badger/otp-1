@@ -14,7 +14,8 @@ func GetPassword() (passwd string, err error) {
 		return "", err
 	}
 	// make sure we arnt given back a 0 length password
-	for len(string(pass)) < 3 {
+	for len(string(pass)) < 1 {
+		fmt.Println("")
 		fmt.Println("Bad entry. Please input your password again.")
 		fmt.Print("Enter Password: ")
 		pass, err = terminal.ReadPassword(0)

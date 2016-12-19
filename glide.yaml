@@ -1,6 +1,12 @@
-package: github.com/adminfromhell/otp
+package: github.com/mythic-tech/otp
 import:
 - package: github.com/ogier/pflag
   version: ^0.0.1
+- package: github.com/spf13/cobra
 - package: github.com/xeodou/go-sqlcipher
 - package: golang.org/x/crypto
+  subpackages:
+  - ssh/terminal
+- package: github.com/olekukonko/tablewriter
+- package: github.com/hgfischer/go-otp
+  version: ^1.0.0
