@@ -166,5 +166,12 @@ func createdb(data *InitData) (err error) {
 		return err
 	}
 
+	logging.Debug("Fixing Permissions on otp.db", DEBUG)
+	err = os.Chmod(dbpath, 0600)
+	if err != nil {
+		fmt.Printf("unable to fix permissions on %s\n", dbpath)
+		fmt.Printf("to fix permission please run chmod 0600 %s", dbpath)
+	}
+
 	return nil
 }
