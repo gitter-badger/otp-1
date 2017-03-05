@@ -1,4 +1,6 @@
 # otp
+
+[![Join the chat at https://gitter.im/adminfromhell-otp/Lobby](https://badges.gitter.im/adminfromhell-otp/Lobby.svg)](https://gitter.im/adminfromhell-otp/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 <!-- *(Code Health and Pipleine Status at bottem of README)*   -->
 
 CLI based TOTP tool  
