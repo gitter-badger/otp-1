@@ -1,0 +1,5 @@
+pipeline:
+  run_tests:
+    image: adminfromhell/golang-testing
+    commands:
+      - go test
