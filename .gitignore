@@ -3,3 +3,6 @@ otp.db
 .otp
 old
 vendor
+.idea
+
+*.test
